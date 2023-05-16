@@ -16,6 +16,7 @@ public class GameDTO {
 	private String shortDescription;
 	private String longDescription;
 	
+	//copia entidades para objetos
 	public GameDTO(Game entity) {
 		BeanUtils.copyProperties(entity, this);
 	}
